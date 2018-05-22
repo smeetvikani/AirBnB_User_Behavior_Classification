@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <p>
+    {% if x_input %}
+      input values: {{ [x_input] }}
+    {% endif%}
+  </p>
+  <p>
+    {% if prediction %}
+      prediction: {{ prediction|safe}}
+    {% endif%}
+  </p>
+
+  <form action="/predict">
+    {% for f in feature_names %}
+        <br>
+        {{ f }}
+        <br>
+
+        <input type="text" name="{{ f }}" value=0>
+    {% endfor %}
+    <br>
+    <input type="submit" value="Submit" method="get">
+  </form>
+
+</body>
+</html>

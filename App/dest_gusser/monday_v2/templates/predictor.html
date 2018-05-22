@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <style>
+
+</style>
+
+<iframe src="http://127.0.0.1:8050/" width="80%" height="600"></iframe>
+
+  <p>
+    {% if prediction %}
+    Prediction:<br><br>
+      1 = US
+      0 = Other
+      {{ prediction|safe}}
+    {% endif%}
+  </p>
+
+
+  <form action="/predict">
+  <input type="submit" value="Submit" method="get"></input>
+
+<p>
+<!-- whole table -->
+  {% if attrib2 %}
+
+    {{ attrib2 | safe}}
+  {% endif%}
+</p>
+
+
+
+
+</form>
+</body>
+</html>

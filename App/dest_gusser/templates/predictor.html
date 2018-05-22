@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+
+
+<center>
+
+  <p>
+    {% if prediction %}
+
+      1 = US
+      0 = Other
+      <br>
+<b> {{ prediction|safe}} </b>
+    {% endif%}
+  </p>
+</center>
+
+  <form action="/predict">
+  <center><input type="submit" value="Randomize a Sample" method="get"></input></center>
+<center>
+<p>
+<!-- whole table -->
+  {% if attrib2 %}
+
+  {{ attrib2 | safe}}
+  {% endif%}
+</p>
+
+</center>
+
+
+</form>
+</body>
+</html>
