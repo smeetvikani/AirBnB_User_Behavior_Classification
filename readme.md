@@ -1,4 +1,4 @@
-![Sklearn logo](http://scikit-learn.org/stable/_static/scikit-learn-logo-small.png)
+![Sklearn logo](https://justproductjobs.com/img/logos/airbnb.png)
 
 ### Table of Contents
 [1. Project Overview](#section-a)  
@@ -9,7 +9,7 @@
 [6. Phase 2, Establish Threshold](#section-c3)  
 [7. Final Results](#section-e)  
 [8. Flask App](#section-end)  
-[9. Github Repo - Link](https://github.com/smeetvikani/Used-Car-Price-Predictor-Model)
+[9. Github Repo - Link](https://github.com/smeetvikani/AirBnB_User_Behavior_Classification)
 
 
 ---
@@ -112,7 +112,7 @@ Details on the model below:
 
 ### <a name="section-end"></a> App:
 
-I have created a flask using plotlyapp to test the model and also for interactive data analysis. App included in the Github Repo
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cy9QusUc8Is" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
