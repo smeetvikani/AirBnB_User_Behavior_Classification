@@ -14,8 +14,8 @@
 
 ---
 
-### <a name="section-a"></a>1.  Project Overview
-##### The goal of this project was to Classify new Air BnB users as to their destination preferance sololy based on online activty and static user data. 
+### <a name="section-a"></a>1.  Project Overview.
+##### The goal of this project was to Classify new AirBnB users as to their destination preference solely based on online activity and static user data. 
 * Static User Data such as: 
 	* Device Used
 	* Signup Method
@@ -41,13 +41,13 @@
 *   Logistic Regression
 *   KNN
 *   SVM (Support Vector Machines)
-*   Ensamble Random Forest Classifier 
+*   Ensemble Random Forest Classifier 
 *   Decision Tree Classifier
 *   Tuning: Sklearn GridSearchCV
 
 ---
 ### <a name="section-b2"></a>3.  Data Distribution
-Exploratory Data Analysis was performed on the age distribution of the target demographic. Below is a plot created using Seaborn, represents the histogram of average Air B%B user age.
+Exploratory Data Analysis was performed on the age distribution of the target demographic. Below is a plot created using Seaborn, represents the histogram of average AirB&B user age.
 ![Map](http://downloadforpc.net/Metis/project4/plots/fig.jpeg)
 
 ---
@@ -57,19 +57,19 @@ Exploratory Data Analysis was performed on the age distribution of the target de
 
 Tested Initial Data using Various Models: Each Model was Cross Validated Using Test Sets. Below is the test data model summary. 
 ![Map](http://downloadforpc.net/Metis/project4/plots/compare.jpeg)
-Best Performing model was Random Forest Classifier. There results were not significat due to high class imbalance. 
+Best Performing model was Random Forest Classifier. These results were not significant due to high class imbalance. 
 ![Map](http://downloadforpc.net/Metis/project4/plots/rfc_score.png)
 
 
 
 ### <a name="section-c2"></a> Phase 2, Binary Classification Model
-Due to high class imbalance, we were unable to get significant results from multivariate classificaiton. In order to derive significant results from the data, I narrowed down the classes to find just users travelling in the States vs the rest of the world. 
+Due to high class imbalance, we were unable to get significant results from multivariate classification. In order to derive significant results from the data, I narrowed down the classes to find just users travelling in the States vs the rest of the world. 
 
-As you can see below Logistic Regression, outperformed random forest classifier by a large margin. Scoring Metric was F1 Score, with a good balance of accuray and recall. 
+As you can see below Logistic Regression, outperformed random forest classifier by a large margin. Scoring Metric was F1 Score, with a good balance of accuracy and recall. 
 ![Map](http://downloadforpc.net/Metis/project4/plots/compare2.jpeg)
 
 
-Listed below are the features with the highest impact on the model. R Squared of this model remained consistant with the test set, we can conclude there was no overfitting. 
+Listed below are the features with the highest impact on the model. R Squared of this model remained consistent with the test set, we can conclude there was no overfitting. 
 ![Map](http://downloadforpc.net/Metis/project4/plots/coef.jpeg)
 
 
@@ -118,3 +118,6 @@ Details on the model below:
 
 ### <a name="section-end"></a> Contact:
 Thank you for visiting the page, feel free to contact me at smeet.vikani@gmail.com
+
+
+
